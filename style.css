@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5dc; 
+  color: #000;
+  line-height: 1.6;
+}
+/* Header*/
+header{
+  background-color: #fff;
+  padding: 20px;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1) ;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.porfile-pic{
+  width: 300px;
+  height: 310px;
+  border-radius: 50%;
+object-fit: cover;
+transition: box-shadow 0.3 ease;
+display: block;
+margin: 20px auto 20px 100px;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: fadeZoomIn 1s ease forwards;
+}
+
+@keyframes fadeZoomIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.porfile-pic:hover{
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+nav {
+  background-color:#FEFAE0;
+  width:100%;
+  padding:10px 0;
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  position: sticky;
+  top:0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  
+}
+nav a{
+  text-decoration:none;
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+ nav a:hover{
+  color:#555;
+ }
+ 
+ main{
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  align-items: center;
+ }
+ section{
+  background-color: #fff;
+  padding:30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+ }
+ h1,h2{
+  margin-bottom: 20px;
+ }
+
+ ul{
+  list-style-type: disc;
+   padding-left: 20px;
+ }
+ li{
+  margin-bottom: 10px;
+ }
+ form{
+  display:flex;
+  flex-direction: column;
+  gap:15px;
+ }
+ input,textarea{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  font-size:16px;
+ }
+ textarea{
+  resize:vertical;
+ }
+ button{
+  padding:10px;
+  background-color: #000;
+  color:#fff;
+  border: none;
+  font-size:16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ }
+ 
+ button:hover{
+  background-color: #333;
+
+ }
+ footer{
+  background-color: #fff;
+  text-align:center;
+  padding:15px;
+  font-size: 14px;
+  margin-top:40px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+ }
+ html{
+  scroll-behavior: smooth;
+ }
+
+.header-content{
+  display:flex;
+  align-items: center;
+  gap:30px;
+  justify-content:center ;
+  margin-top:20px ;
+}
+
+ .header-content h1{
+   font-family:'Arial, sans-serif';
+   font-size:28px ;
+   color:#222;
+   text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+   margin:0;
+   opacity: 0;
+ transform: translateY(20px);
+ animation: fadeSlideIn 1s ease forwards;
+ }
+
+@keyframes fadeSlideIn {
+ to {
+   opacity: 1;
+   transform: translateY(0);
+ }
+}
