@@ -18,7 +18,7 @@ header{
 }
 .porfile-pic{
   width: 300px;
-  height: 310px;
+  height: 315px;
   border-radius: 50%;
 object-fit: cover;
 transition: box-shadow 0.3 ease;
