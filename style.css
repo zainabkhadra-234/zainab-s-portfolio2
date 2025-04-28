@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f5f5dc; 
+  background-color:  #CCD5AE;
   color: #000;
   line-height: 1.6;
 }
 /* Header*/
 header{
-  background-color: #fff;
+  background-color: #FEFAE0;
   padding: 20px;
   box-shadow:0 2px 5px rgba(0,0,0,0.1) ;
   display:flex;
