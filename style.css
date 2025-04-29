@@ -162,4 +162,26 @@ nav a{
   margin-top: 10px;
   letter-spacing: 1px;
 }
+reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #be9b7b;
+  transform: scale(1.05); 
+}
 
