@@ -220,6 +220,70 @@ nav a:hover {
   color: #333;
   font-size: 14px;
 }
+}
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#projects li {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #f9f5f0;
+  border-left: 4px solid #000;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#projects li:hover {
+  background-color: #fff;
+  transform: translateX(10px);
+}
+
+#projects a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+#projects a:hover {
+  color: #000;
+}
+#skills {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #f0ebe3;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skills-list li:hover {
+  transform: scale(1.05);
+  background-color: #e4dcd0;
+}
+
 
 
 
